@@ -2,13 +2,12 @@
 
 import { useLanguage } from '@/context/LanguageContext';
 import Image from 'next/image';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function Header() {
   const { lang, t, toggleLang } = useLanguage();
-  const { scrollY } = useScroll();
-  const backgroundColor = useTransform(scrollY, [0, 100], ['rgba(245, 241, 234, 0)', 'rgba(245, 241, 234, 0.95)']);
-  const backdropFilter = useTransform(scrollY, [0, 100], ['blur(0px)', 'blur(12px)']);
+  const backgroundColor = 'rgba(245, 241, 234, 0.95)';
+  const backdropFilter = 'blur(12px)';
 
   return (
     <motion.header 

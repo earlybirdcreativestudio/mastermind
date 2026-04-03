@@ -15,7 +15,7 @@ export default function SectionBlock({ id, className = "", children, align = "le
   
   const bgColors = {
     lavender: "bg-[var(--color-mm-lavender)] text-mm-dark",
-    sage: "bg-[var(--color-mm-sage)] text-mm-dark",
+    sage: "bg-[var(--color-mm-sage)] text-white",
     orange: "bg-[var(--color-mm-orange)] text-white",
     offwhite: "bg-[var(--color-mm-offwhite)] text-mm-dark",
     dark: "bg-transparent text-white",
