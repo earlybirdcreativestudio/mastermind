@@ -16,7 +16,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         <div className="flex flex-col items-center justify-center order-1 md:order-2 h-full">
-          <div className="relative h-20 md:h-22 w-48 md:w-96">
+          <div className="relative h-20 md:h-22 w-48 md:w-96 scale-[1.35] md:scale-[1.5] origin-left md:origin-center">
             <Image
               src="/logo.png"
               alt="Mastermind Productions"

@@ -26,12 +26,12 @@ export const translations = {
           desc: "Wij werken zowel op afstand als op locatie en leveren producties in diverse genres zoals Pop, Hip Hop, Afro en Dancehall. Samen bespreken we waar je naar op zoek bent en aan welke criteria de productie moet voldoen. Alles wordt volledig op maat gemaakt en afgestemd op de wensen van de organisatie of artiest. Ook zijn onze producers te boeken voor schrijverskampen."
         },
         {
-          title: "Distributie",
-          desc: "Wil je jouw muziek online releasen maar weet je niet waar je moet beginnen? Wij helpen bij het aanmelden, of met het creëren van een eigen artiestenpagina en zorgen dat je single, EP of album op de juiste distributieplatformen komt. Daarbij maakt het niet uit welke genre: muziek releasen moet voor iedereen toegankelijk zijn."
-        },
-        {
           title: "Sound engineer",
           desc: "We verzorgen het opnameproces. Dit betekent dat we je vocalen opnemen en de opname zo uitwerken dat je een product hebt dat klaar is om door te gaan naar de volgende fase van de productie. Dankzij onze ervaring in verschillende genres weten we hoe we stemmen het beste kunnen opnemen en behandelen, zodat jouw sound het best ontwikkeld kan worden. Mocht je alleen op zoek zijn naar een mix of master, dan kun je ook contact met ons opnemen."
+        },
+        {
+          title: "Distributie",
+          desc: "Wil je jouw muziek online releasen maar weet je niet waar je moet beginnen? Wij helpen bij het aanmelden, of met het creëren van een eigen artiestenpagina en zorgen dat je single, EP of album op de juiste distributieplatformen komt. Daarbij maakt het niet uit welke genre: muziek releasen moet voor iedereen toegankelijk zijn."
         },
         {
           title: "Consultatie",
@@ -120,12 +120,12 @@ export const translations = {
           desc: "We work remotely and on location, delivering productions in various genres such as Pop, Hip Hop, Afro, and Dancehall. Together, we discuss what you are looking for and the criteria the production needs to meet. Everything is fully custom made and tailored to the wishes of the organization or artist. Our producers are also available for writing camps."
         },
         {
-          title: "Distribution",
-          desc: "Do you want to release your music online but don’t know where to start? We help with registration, creating your own artist page, and ensuring your single, EP, or album reaches the right distribution platforms. No matter the genre, releasing music should be accessible to everyone."
-        },
-        {
           title: "Sound engineer",
           desc: "We take care of the recording process. This means we record your vocals and process the recording so you have a product that’s ready to move on to the next stage of production. Thanks to our experience across different genres, we know how to best record and treat vocals so your sound can be fully developed. If you’re only looking for a mix or master, you can also get in touch with us."
+        },
+        {
+          title: "Distribution",
+          desc: "Do you want to release your music online but don’t know where to start? We help with registration, creating your own artist page, and ensuring your single, EP, or album reaches the right distribution platforms. No matter the genre, releasing music should be accessible to everyone."
         },
         {
           title: "Consultation",
