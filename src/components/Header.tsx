@@ -16,7 +16,7 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
         <div className="flex flex-col items-center justify-center order-1 md:order-2 h-full">
-          <div className="relative h-14 md:h-16 w-48 md:w-80">
+          <div className="relative h-20 md:h-22 w-48 md:w-96">
             <Image
               src="/logo.png"
               alt="Mastermind Productions"
@@ -25,9 +25,6 @@ export default function Header() {
               priority
             />
           </div>
-          <span className="hidden md:block text-sm font-medium tracking-widest uppercase text-mm-dark/80 mt-1 whitespace-nowrap">
-            Mastermind Productions
-          </span>
         </div>
         
         <nav className="hidden md:flex gap-8 items-center text-sm font-medium tracking-widest uppercase text-mm-dark/80 order-2 md:order-1 md:w-48">
