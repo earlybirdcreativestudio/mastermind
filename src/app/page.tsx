@@ -22,18 +22,39 @@ export default function Home() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="max-w-6xl mx-auto"
+          className="max-w-6xl mx-auto relative z-10"
         >
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tighter text-white drop-shadow-2xl mb-8 leading-[0.9]">
-            {t.hero.headline.split('.').map((part, i, arr) => (
-              <span key={i}>
-                {part}{i !== arr.length - 1 ? '.' : ''}<br className="hidden md:block" />
-              </span>
-            ))}
-          </h1>
-          <p className="text-lg md:text-2xl text-white/80 max-w-3xl mx-auto font-light leading-relaxed drop-shadow-lg">
-            {t.hero.subheadline}
-          </p>
+          {/* Circular shadow behind text for better contrast */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] sm:w-[500px] sm:h-[500px] md:w-[800px] md:h-[800px] bg-black/70 blur-[100px] rounded-full pointer-events-none z-0" />
+          
+          <div className="relative z-10">
+            <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-normal text-white drop-shadow-2xl mb-8 leading-[0.9]">
+              {t.hero.headline.includes('.') ? (
+                t.hero.headline.split('.').map((part, i, arr) => (
+                  <span key={i}>
+                    {part}{i !== arr.length - 1 ? '.' : ''}<br className="hidden md:block" />
+                  </span>
+                ))
+              ) : (
+                t.hero.headline.split(' ').map((part, i, arr) => (
+                  <span key={i}>
+                    {part}{i !== arr.length - 1 ? ' ' : ''}<br className="hidden md:block" />
+                  </span>
+                ))
+              )}
+            </h1>
+            <p className="text-lg md:text-2xl text-white/80 max-w-3xl mx-auto font-light leading-relaxed drop-shadow-lg mb-10">
+              {t.hero.subheadline}
+            </p>
+            <div className="md:hidden">
+              <a 
+                href="#contact" 
+                className="inline-block px-8 py-4 bg-mm-orange text-white font-bold tracking-widest text-sm uppercase rounded-full shadow-lg active:scale-95 transition-all"
+              >
+                {t.intro.button}
+              </a>
+            </div>
+          </div>
         </motion.div>
       </section>
 

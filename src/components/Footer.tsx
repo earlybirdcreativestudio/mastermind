@@ -17,7 +17,7 @@ export default function Footer() {
           <p className="text-mm-dark/70 mb-8 max-w-sm text-lg">
             Ready to shape your sound? Let's talk about your next big project.
           </p>
-          <a href="mailto:info@mastermindproductions.com" className="inline-flex items-center gap-3 px-8 py-4 bg-mm-orange text-white font-bold tracking-widest uppercase text-sm rounded-full hover:bg-mm-dark transition-colors">
+          <a href="mailto:info@mastermindproductions.nl" className="inline-flex items-center gap-3 px-8 py-4 bg-mm-orange text-white font-bold tracking-widest uppercase text-sm rounded-full hover:bg-mm-dark transition-colors">
             <Mail size={18} />
             Email Us
           </a>
@@ -47,9 +47,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto mt-32 pt-8 border-t border-black/10 flex flex-col md:flex-row justify-between items-center text-xs text-mm-dark/50 tracking-widest uppercase font-semibold">
         <p>© {new Date().getFullYear()} Mastermind Productions</p>
         <div className="flex gap-6 mt-4 md:mt-0">
-          <a href="#" className="hover:text-mm-orange transition-colors">Instagram</a>
           <a href="#" className="hover:text-mm-orange transition-colors">Spotify</a>
-          <a href="#" className="hover:text-mm-orange transition-colors">LinkedIn</a>
+          <a href="#" className="hover:text-mm-orange transition-colors">Instagram</a>
+          <a href="#" className="hover:text-mm-orange transition-colors">iTunes</a>
         </div>
       </div>
     </footer>

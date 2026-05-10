@@ -8,8 +8,8 @@ export const translations = {
       contact: "Contact"
     },
     hero: {
-      headline: "Focus op je geluid. Wij regelen de rest.",
-      subheadline: "Bij Mastermind Productions vinden we het belangrijk dat muziek aansluit bij de boodschap die je wilt overbrengen."
+      headline: "MASTERMIND PRODUCTIONS",
+      subheadline: "We hebben gewerkt aan projecten met onder andere Top Notch, Red Bull, LASER by Sony Music en Vaseline."
     },
     intro: {
       p1: "Bij Mastermind Productions vinden we het belangrijk dat muziek aansluit bij de boodschap die je wilt overbrengen naar de luisteraars. Muziek maken staat centraal, maar er komt veel meer bij kijken.",
@@ -102,8 +102,8 @@ export const translations = {
       contact: "Contact"
     },
     hero: {
-      headline: "Focus on your sound. We handle the rest.",
-      subheadline: "At Mastermind Productions, we believe it’s important that music aligns with the message you want to share with your listeners."
+      headline: "MASTERMIND PRODUCTIONS",
+      subheadline: "We have worked on projects with, among others, Top Notch, Red Bull, LASER by Sony Music, and Vaseline."
     },
     intro: {
       p1: "At Mastermind Productions, we believe it’s important that music aligns with the message you want to share with your listeners. Creating music is central, but there’s much more involved.",

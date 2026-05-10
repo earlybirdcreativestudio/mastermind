@@ -14,10 +14,10 @@ interface SectionBlockProps {
 export default function SectionBlock({ id, className = "", children, align = "left", color = "dark" }: SectionBlockProps) {
   
   const bgColors = {
-    lavender: "bg-[var(--color-mm-lavender)] text-mm-dark",
-    sage: "bg-[var(--color-mm-sage)] text-white",
-    orange: "bg-[var(--color-mm-orange)] text-white",
-    offwhite: "bg-[var(--color-mm-offwhite)] text-mm-dark",
+    lavender: "bg-mm-lavender/80 hover:bg-mm-lavender/95 border border-black/10 text-mm-dark",
+    sage: "bg-mm-sage/80 hover:bg-mm-sage/95 border border-white/20 text-white",
+    orange: "bg-mm-orange/80 hover:bg-mm-orange/95 border border-white/20 text-white",
+    offwhite: "bg-mm-offwhite/80 hover:bg-mm-offwhite/95 border border-black/10 text-mm-dark",
     dark: "bg-transparent text-white",
   };
 
@@ -30,7 +30,7 @@ export default function SectionBlock({ id, className = "", children, align = "le
         whileInView={{ opacity: 1, y: 0, rotateX: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-        className={`w-full max-w-4xl p-12 md:p-20 rounded-3xl ${bgColors[color]} ${alignClass} shadow-2xl relative overflow-hidden`}
+        className={`w-full max-w-4xl p-12 md:p-20 rounded-3xl ${bgColors[color]} ${alignClass} shadow-2xl relative overflow-hidden backdrop-blur-md transition-colors`}
       >
         {children}
       </motion.div>
