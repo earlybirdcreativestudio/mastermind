@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import VideoBackground from "@/components/VideoBackground";
 import SectionBlock from "@/components/SectionBlock";
 import Footer from "@/components/Footer";
+import ProjectCard from "@/components/ProjectCard";
 import { motion } from "framer-motion";
 import { Mic2, Headphones, Radio, BarChart } from "lucide-react";
 
@@ -121,18 +122,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {t.projects.items.map((project, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-[#F5F1EA]/70 backdrop-blur-md border border-black/10 p-8 rounded-3xl hover:bg-[#F5F1EA]/90 transition-colors group"
-              >
-                <div className="text-mm-orange text-sm font-bold tracking-widest uppercase mb-4">{project.subtitle}</div>
-                <h3 className="text-2xl font-bold text-mm-dark mb-4">{project.title}</h3>
-                <p className="text-mm-dark/70 leading-relaxed text-sm">{project.desc}</p>
-              </motion.div>
+              <ProjectCard key={index} project={project} index={index} />
             ))}
           </div>
         </section>

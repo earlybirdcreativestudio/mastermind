@@ -43,9 +43,9 @@ export const translations = {
       title: "Onze projecten",
       items: [
         {
-          title: "TikTok Award & ICM Award Nomination",
-          subtitle: "Vaseline Gluta-Hya",
-          desc: "Wij zijn trots om te delen dat we genomineerd zijn voor zowel de TikTok Awards als de ICM Awards met onze campagne voor Vaseline Gluta-Hya. Een mooie erkenning voor het harde werk, de creativiteit en de samenwerking achter deze campagne. We kijken enorm uit naar de resultaten!"
+          title: "Yxng Le released Gemengde Gevoelens",
+          subtitle: "Mastermind Production",
+          desc: "Yxng Le presenteert zijn nieuwe EP Gemengde Gevoelens. De EP draait om liefde, twijfel en persoonlijke ervaringen. Mastermind heeft een grote rol gespeeld in de productie van het project en werkte mee aan tracks zoals Intro, Twijfels, Twijfels (feat. Bryan MG), Body en Niet Genoeg Pt. 2 (feat. Zefanio)."
         },
         {
           title: "Won the ICM Award",
@@ -53,19 +53,9 @@ export const translations = {
           desc: "We hebben de ICM Awards gewonnen met onze campagne voor Vaseline Gluta-Hya. Een bijzondere prestatie binnen een competitie die de hele Benelux omvat, waarin we het opnamen tegen sterke namen zoals Albert Heijn, HEMA, Rijksmuseum en Lidl. Deze prestatie is een erkenning voor de resultaten en de samenwerking achter deze campagne."
         },
         {
-          title: "Yxng Le released Gemengde Gevoelens",
-          subtitle: "Mastermind Production",
-          desc: "Yxng Le presenteert zijn nieuwe EP Gemengde Gevoelens. De EP draait om liefde, twijfel en persoonlijke ervaringen. Mastermind heeft een grote rol gespeeld in de productie van het project en werkte mee aan tracks zoals Intro, Twijfels, Twijfels (feat. Bryan MG), Body en Niet Genoeg Pt. 2 (feat. Zefanio)."
-        },
-        {
-          title: "Yxng Le released Body",
-          subtitle: "Mastermind Production",
-          desc: "Mastermind en Yxng Le hebben samen de single Body gemaakt. Het nummer gaat over de liefde en het verlangen naar iemand. De Afro productie erbij zorgt ervoor dat je meteen helemaal verliefd wordt."
-        },
-        {
-          title: "Vaseline released Gluta-Hya",
-          subtitle: "Campaign Soundtrack",
-          desc: "Voor de introductie van de nieuwe productlijn Gluta Hya gingen Mastermind, Blvckforce en Vaseline een samenwerking aan. De campagne bevat een speciaal uitgebracht nummer met de enige CE GLOW ter promotie van de productlijn."
+          title: "TikTok Award & ICM Award Nomination",
+          subtitle: "Vaseline Gluta-Hya",
+          desc: "Wij zijn trots om te delen dat we genomineerd zijn voor zowel de TikTok Awards als de ICM Awards met onze campagne voor Vaseline Gluta-Hya. Een mooie erkenning voor het harde werk, de creativiteit en de samenwerking achter deze campagne. We kijken enorm uit naar de resultaten!"
         },
         {
           title: "Yxng Le released Teasen",
@@ -73,9 +63,19 @@ export const translations = {
           desc: "Met Teasen presenteert Yxng Le een nieuwe single. Het nummer dat volledig geproduceerd is door Mastermind — met deze sound ben je als afro liefhebber helemaal juist. Teasen is uitgebracht onder 777 Records en Top Notch."
         },
         {
-          title: "Noell3 released DND",
+          title: "Vaseline released Gluta-Hya",
+          subtitle: "Campaign Soundtrack",
+          desc: "Voor de introductie van de nieuwe productlijn Gluta Hya gingen Mastermind, Blvckforce en Vaseline een samenwerking aan. De campagne bevat een speciaal uitgebracht nummer met de enige CE GLOW ter promotie van de productlijn."
+        },
+        {
+          title: "Yxng Le released Body",
           subtitle: "Mastermind Production",
-          desc: "DND van Noell3 heeft een verfrissende style die meteen blijft hangen. Je hoort haar eigen rapstyle terug — rauw, direct en toch speels. Dit is een deel van Noell3 en dat is allemaal terug te horen in dit nummer in samenwerking met Mastermind."
+          desc: "Mastermind en Yxng Le hebben samen de single Body gemaakt. Het nummer gaat over de liefde en het verlangen naar iemand. De Afro productie erbij zorgt ervoor dat je meteen helemaal verliefd wordt."
+        },
+        {
+          title: "Daliss released Stille ruimtes",
+          subtitle: "Mastermind Production",
+          desc: "Daliss heeft zijn nieuwe single Stille Ruimte uitgebracht, een nummer waarin gospel en hiphop op een unieke manier samenkomen. Het nummer is mede geproduceerd door Mastermind. Met zijn kenmerkende stijl weet Daliss opnieuw een diep en meeslepend geluid neer te zetten."
         },
         {
           title: "Kevcody released Verbinding",
@@ -83,9 +83,9 @@ export const translations = {
           desc: "Verbinding van Kevcody is een Afro-Pop single geproduceerd door Mastermind. Het nummer draait om liefde. Kevcody’s zang geeft het nummer een sfeer. En met de saxophone solo brengt het je helemaal in een zomerse sfeer."
         },
         {
-          title: "Daliss released Stille ruimtes",
+          title: "Noell3 released DND",
           subtitle: "Mastermind Production",
-          desc: "Daliss heeft zijn nieuwe single Stille Ruimte uitgebracht, een nummer waarin gospel en hiphop op een unieke manier samenkomen. Het nummer is mede geproduceerd door Mastermind. Met zijn kenmerkende stijl weet Daliss opnieuw een diep en meeslepend geluid neer te zetten."
+          desc: "DND van Noell3 heeft een verfrissende style die meteen blijft hangen. Je hoort haar eigen rapstyle terug — rauw, direct en toch speels. Dit is een deel van Noell3 en dat is allemaal terug te horen in dit nummer in samenwerking met Mastermind."
         }
       ]
     },
@@ -137,9 +137,9 @@ export const translations = {
       title: "Our projects",
       items: [
         {
-          title: "TikTok Award & ICM Award Nomination",
-          subtitle: "Vaseline Gluta-Hya",
-          desc: "We are proud to share that we have been nominated for both the TikTok Awards and the ICM Awards with our campaign for Vaseline Gluta-Hya. A great recognition of the hard work, creativity, and collaboration behind this campaign. We are very much looking forward to the results!"
+          title: "Yxng Le released Gemengde Gevoelens",
+          subtitle: "Mastermind Production",
+          desc: "Yxng Le presents his new EP Gemengde Gevoelens. The project revolves around love, doubt, and personal experiences. Mastermind played a major role in the production of the EP, contributing to tracks such as Intro, Twijfels, Twijfels (feat. Bryan MG), Body, and Niet Genoeg Pt. 2 (feat. Zefanio)."
         },
         {
           title: "ICM Award Won",
@@ -147,19 +147,9 @@ export const translations = {
           desc: "We have won the ICM Awards with our campaign for Vaseline Gluta-Hya. A remarkable achievement within a competition that spans the entire Benelux, where we competed against major names such as Albert Heijn, HEMA, Rijksmuseum, and Lidl. This achievement is a recognition of the results and the collaboration behind this campaign."
         },
         {
-          title: "Yxng Le released Gemengde Gevoelens",
-          subtitle: "Mastermind Production",
-          desc: "Yxng Le presents his new EP Gemengde Gevoelens. The project revolves around love, doubt, and personal experiences. Mastermind played a major role in the production of the EP, contributing to tracks such as Intro, Twijfels, Twijfels (feat. Bryan MG), Body, and Niet Genoeg Pt. 2 (feat. Zefanio)."
-        },
-        {
-          title: "Yxng Le released Body",
-          subtitle: "Mastermind Production",
-          desc: "Mastermind and Yxng Le have created the single Body together. The song is about love and longing for someone. The Afro-inspired production makes you fall in love instantly."
-        },
-        {
-          title: "Vaseline released Gluta-Hya",
-          subtitle: "Campaign Soundtrack",
-          desc: "For the launch of the new Gluta Hya product line, Mastermind, Blvckforce, and Vaseline collaborated. The campaign includes a specially released track featuring the one and only CE GLOW to promote the product line."
+          title: "TikTok Award & ICM Award Nomination",
+          subtitle: "Vaseline Gluta-Hya",
+          desc: "We are proud to share that we have been nominated for both the TikTok Awards and the ICM Awards with our campaign for Vaseline Gluta-Hya. A great recognition of the hard work, creativity, and collaboration behind this campaign. We are very much looking forward to the results!"
         },
         {
           title: "Yxng Le released Teasen",
@@ -167,9 +157,19 @@ export const translations = {
           desc: "With Teasen, Yxng Le presents a new single. The track, fully produced by Mastermind, is perfect for Afro music lovers with its sound. Teasen has been released under 777 Records and Top Notch."
         },
         {
-          title: "Noell3 released DND",
+          title: "Vaseline released Gluta-Hya",
+          subtitle: "Campaign Soundtrack",
+          desc: "For the launch of the new Gluta Hya product line, Mastermind, Blvckforce, and Vaseline collaborated. The campaign includes a specially released track featuring the one and only CE GLOW to promote the product line."
+        },
+        {
+          title: "Yxng Le released Body",
           subtitle: "Mastermind Production",
-          desc: "DND by Noell3 has a refreshing style that instantly sticks with you. You can hear her own rap style — raw, direct, yet playful. This is a part of Noell3, and it all comes through in this track in collaboration with Mastermind."
+          desc: "Mastermind and Yxng Le have created the single Body together. The song is about love and longing for someone. The Afro-inspired production makes you fall in love instantly."
+        },
+        {
+          title: "Daliss released Stille ruimtes",
+          subtitle: "Mastermind Production",
+          desc: "Daliss has released his new single Stille Ruimte, a track in which gospel and hip-hop come together in a unique way. The song is co-produced by Mastermind. With his signature style, Daliss once again delivers a deep and captivating sound."
         },
         {
           title: "Kevcody released Verbinding",
@@ -177,9 +177,9 @@ export const translations = {
           desc: "Verbinding by Kevcody is an Afro-pop single produced by Mastermind. The song revolves around love, and Kevcody’s vocals give the track a distinct atmosphere. With the saxophone solo, it fully brings you into a summery vibe."
         },
         {
-          title: "Daliss released Stille ruimtes",
+          title: "Noell3 released DND",
           subtitle: "Mastermind Production",
-          desc: "Daliss has released his new single Stille Ruimte, a track in which gospel and hip-hop come together in a unique way. The song is co-produced by Mastermind. With his signature style, Daliss once again delivers a deep and captivating sound."
+          desc: "DND by Noell3 has a refreshing style that instantly sticks with you. You can hear her own rap style — raw, direct, yet playful. This is a part of Noell3, and it all comes through in this track in collaboration with Mastermind."
         }
       ]
     },
