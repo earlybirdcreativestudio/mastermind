@@ -14,7 +14,7 @@ export default function Header() {
       style={{ backgroundColor, backdropFilter }}
       className="fixed top-0 left-0 right-0 z-50 transition-colors duration-300 border-b border-black/5"
     >
-      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-24 flex items-center justify-between">
         <div className="flex flex-col items-center justify-center order-1 md:order-2 h-full">
           <div className="relative h-20 md:h-22 w-48 md:w-96 scale-[1.35] md:scale-[1.5] origin-left md:origin-center">
             <Image
@@ -32,7 +32,7 @@ export default function Header() {
           <a href="#projects" className="hover:text-mm-orange transition-colors">{t.nav.projects}</a>
         </nav>
         
-        <div className="flex items-center gap-6 order-3 md:w-48 md:justify-end">
+        <div className="flex items-center gap-3 sm:gap-6 order-3 md:w-48 md:justify-end">
           <button 
             onClick={toggleLang}
             className="flex items-center gap-2 group"
@@ -42,7 +42,7 @@ export default function Header() {
             <span className={`text-sm font-bold tracking-widest ${lang === 'en' ? 'text-mm-dark' : 'text-mm-dark/40 group-hover:text-mm-dark/70'} transition-colors`}>EN</span>
           </button>
           
-          <a href="#contact" className="px-6 py-3 bg-mm-dark text-white font-bold text-xs tracking-widest uppercase rounded-full hover:bg-mm-orange hover:text-white transition-all duration-300">
+          <a href="#contact" className="px-4 sm:px-6 py-3 bg-mm-dark text-white font-bold text-xs tracking-widest uppercase rounded-full hover:bg-mm-orange hover:text-white transition-all duration-300">
             {t.nav.contact}
           </a>
         </div>
