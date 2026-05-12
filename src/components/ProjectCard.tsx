@@ -27,8 +27,8 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="aspect-square cursor-pointer"
       style={{ perspective: "1000px" }}
-      onMouseEnter={() => setIsFlipped(true)}
-      onMouseLeave={() => setIsFlipped(false)}
+      onPointerEnter={(e) => { if (e.pointerType === "mouse") setIsFlipped(true); }}
+      onPointerLeave={(e) => { if (e.pointerType === "mouse") setIsFlipped(false); }}
       onClick={() => setIsFlipped((prev) => !prev)}
     >
       <div

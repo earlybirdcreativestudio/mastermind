@@ -117,7 +117,7 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
           >
-            <h2 className="text-5xl md:text-8xl font-bold text-white tracking-tighter mix-blend-difference mb-8 text-black dark:text-white">{t.projects.title}</h2>
+            <h2 className="text-5xl md:text-8xl font-bold text-white tracking-tighter mix-blend-difference mb-20 text-black dark:text-white">{t.projects.title}</h2>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
